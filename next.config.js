@@ -89,7 +89,10 @@ module.exports = withBundleAnalyzer({
 
   // New configuration section for static export
   output: 'export',
-  exportTrailingSlash: true, // Set this to true for exporting with trailing slashes
+  trailingSlash: true, // Set this to true for exporting with trailing slashes
+  images: {
+    unoptimized: true,
+  },
   exportPathMap: function () {
     return {
       '/': { page: '/' }, // Configure other pages here
