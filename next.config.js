@@ -86,4 +86,13 @@ module.exports = withBundleAnalyzer({
 
     return config;
   },
+
+  // New configuration section for static export
+  output: 'export',
+  exportTrailingSlash: true, // Set this to true for exporting with trailing slashes
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' }, // Configure other pages here
+    };
+  },
 });

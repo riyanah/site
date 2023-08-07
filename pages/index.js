@@ -7,8 +7,6 @@ import formatDate from '@/lib/utils/formatDate';
 import Image from '@/components/Image';
 import projectsData from '@/data/projectsData';
 import Card from '@/components/Card';
-import NewsletterForm from '@/components/NewsletterForm';
-
 import ThemeSwitch from '@/components/ThemeSwitch';
 
 const MAX_DISPLAY = 5;
