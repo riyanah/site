@@ -89,6 +89,7 @@ module.exports = withBundleAnalyzer({
 
   // New configuration section for static export
   output: 'export',
+  assetPrefix: './',
   // trailingSlash: true, // Set this to true for exporting with trailing slashes
   // images: {
   //   unoptimized: true,
